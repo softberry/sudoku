@@ -16,6 +16,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "kmp-boilerplate"
+rootProject.name = "Sudoku"
 include(":androidApp")
 include(":shared")

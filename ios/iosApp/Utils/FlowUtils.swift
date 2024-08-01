@@ -1,5 +1,5 @@
 import Foundation
-import Shared
+import SudokuApp
 
 public class ObservableFlowWrapper<T: AnyObject>: ObservableObject {
 

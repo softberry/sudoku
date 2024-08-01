@@ -25,12 +25,12 @@ kotlin {
     cocoapods {
         summary = "Project summary"
         homepage = "https://github.com/mirego/your-project"
-        name = "Shared"
+        name = "SudokuApp"
 
         podfile = project.file("../ios/Podfile")
 
         framework {
-            baseName = "Shared"
+            baseName = "SudokuApp"
         }
         ios.deploymentTarget = "15.0"
 
@@ -73,7 +73,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.mirego.kmp.boilerplate.common"
+    namespace = "com.emresakarya.sudoku.common"
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
 
     compileSdk = 34

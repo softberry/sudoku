@@ -1,4 +1,4 @@
-import Shared
+import SudokuApp
 import SwiftUI
 
 struct GreetingView: View {

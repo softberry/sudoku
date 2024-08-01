@@ -8,13 +8,13 @@ kotlin {
 }
 
 android {
-    namespace = "com.mirego.kmp.boilerplate"
+    namespace = "com.emresakarya.sudoku"
     compileSdk = 34
     defaultConfig {
         minSdk = 21
         targetSdk = 34
 
-        applicationId = "com.mirego.kmp.boilerplate"
+        applicationId = "com.emresakarya.sudoku"
         versionCode = project.property("versionCode") as? Int
         versionName = project.property("versionName") as? String
     }
