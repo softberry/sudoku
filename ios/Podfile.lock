@@ -1,11 +1,11 @@
 PODS:
-  - Reachability (3.2)
-  - Shared (0.0.1):
+  - Reachability (3.7.6)
+  - SudokuApp (0.0.1):
     - Reachability (~> 3.2)
   - SwiftLint (0.52.4)
 
 DEPENDENCIES:
-  - Shared (from `../shared`)
+  - SudokuApp (from `../shared`)
   - SwiftLint
 
 SPEC REPOS:
@@ -14,14 +14,14 @@ SPEC REPOS:
     - SwiftLint
 
 EXTERNAL SOURCES:
-  Shared:
+  SudokuApp:
     :path: "../shared"
 
 SPEC CHECKSUMS:
-  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  Shared: 394ccbb1a148f40e374cb91aa5b75c96b121a775
+  Reachability: fd0ecd23705e2599e4cceeb943222ae02296cbc6
+  SudokuApp: 74c438aee80621d5cd7ad2ffd82bfa022d5476a2
   SwiftLint: 1cc5cd61ba9bacb2194e340aeb47a2a37fda00b3
 
-PODFILE CHECKSUM: 83ebf5d7b61ce65029f18160027c7392430ee27f
+PODFILE CHECKSUM: 5fd33dd001998feea5b4f8b6e4c893fd43718152
 
 COCOAPODS: 1.15.2
